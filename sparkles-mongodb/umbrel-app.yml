@@ -1,0 +1,36 @@
+manifestVersion: 1
+id: sparkles-mongodb
+name: MongoDB
+tagline: The most popular NoSQL database
+icon: https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg
+category: Development
+version: "7.0.5"
+port: 27017
+description: >-
+  MongoDB is a source-available cross-platform document-oriented database program.
+  Classified as a NoSQL database program, MongoDB uses JSON-like documents with
+  optional schemas.
+
+
+  This app provides a standalone MongoDB instance with persistent data storage.
+  Connect to it using the default MongoDB port 27017.
+
+
+  Default credentials:
+  - Username: root
+  - Password: mdb-umbrel-password (change this in docker-compose.yml)
+
+developer: MongoDB, Inc.
+website: https://www.mongodb.com
+submitter: Sparkles
+submission: https://github.com/lionnel-afan/home-umbrel-app-store
+repo: https://github.com/mongodb/mongo
+support: https://github.com/lionnel-afan/home-umbrel-app-store/issues
+gallery:
+  - https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png
+releaseNotes: >-
+  This release includes MongoDB 7.0.5 with improved performance and stability.
+dependencies: []
+path: ""
+defaultUsername: "root"
+defaultPassword: "mdb-umbrel-password"
