@@ -1,0 +1,41 @@
+manifestVersion: 1
+id: sparkles-valkey
+name: ValKey
+tagline: A high-performance key-value datastore
+icon: >-
+  https://raw.githubusercontent.com/valkey-io/valkey-io.github.io/main/assets/img/valkey-logo-hor.svg
+category: Development
+version: "7.2.5"
+port: 6379
+description: >-
+  Valkey is a high-performance data structure server that primarily serves
+  key/value workloads. It supports a wide range of native structures and an
+  extensible plugin system for adding new data structures and access patterns.
+
+
+  This app provides a standalone Valkey instance with persistent data storage
+  using AOF (Append-Only File) persistence mode for data durability.
+  Connect to it using the default Redis-compatible port 6379.
+
+
+  Valkey is fully compatible with Redis, so you can use any Redis client to
+  connect.
+
+
+  Optional: Set a password by uncommenting the VALKEY_PASSWORD line in
+  docker-compose.yml
+
+developer: Linux Foundation
+website: https://valkey.io
+submitter: Sparkles
+submission: https://github.com/lionnel-afan/home-umbrel-app-store
+repo: https://github.com/valkey-io/valkey
+support: https://github.com/lionnel-afan/home-umbrel-app-store/issues
+gallery:
+  - https://valkey.io/assets/img/valkey-logo-vert.svg
+releaseNotes: >-
+  This release includes Valkey 7.2.5 with improved performance and stability.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

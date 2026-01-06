@@ -1,0 +1,39 @@
+manifestVersion: 1
+id: sparkles-postgresql
+name: PostgreSQL
+tagline: The world's most advanced open source relational database
+icon: https://cdn.worldvectorlogo.com/logos/postgresql.svg
+category: Development
+version: "16.1"
+port: 5432
+description: >-
+  PostgreSQL is a powerful, open source object-relational database system with
+  over 35 years of active development that has earned it a strong reputation for
+  reliability, feature robustness, and performance.
+
+
+  This app provides a standalone PostgreSQL instance with persistent data storage.
+  Connect to it using the default PostgreSQL port 5432.
+
+
+  Default credentials:
+  - Username: postgres
+  - Password: pg-umbrel-password (change this in docker-compose.yml
+    before deployment)
+  - Database: postgres
+
+developer: PostgreSQL Global Development Group
+website: https://www.postgresql.org
+submitter: Sparkles
+submission: https://github.com/lionnel-afan/home-umbrel-app-store
+repo: https://github.com/postgres/postgres
+support: https://github.com/lionnel-afan/home-umbrel-app-store/issues
+gallery:
+  - https://www.postgresql.org/media/img/about/press/elephant.png
+releaseNotes: >-
+  This release includes PostgreSQL 16.1 with improved performance and new
+  features.
+dependencies: []
+path: ""
+defaultUsername: "postgres"
+defaultPassword: "pg-umbrel-password"
