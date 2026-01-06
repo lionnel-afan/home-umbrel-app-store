@@ -13,7 +13,8 @@ description: >-
   extensible plugin system for adding new data structures and access patterns.
 
 
-  This app provides a standalone Valkey instance with persistent data storage.
+  This app provides a standalone Valkey instance with persistent data storage
+  using AOF (Append-Only File) persistence mode for data durability.
   Connect to it using the default Redis-compatible port 6379.
 
 
